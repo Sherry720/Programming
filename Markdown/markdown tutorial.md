@@ -22,18 +22,19 @@ Markdown的教程内容，来源于[Markdown tutorial](https://www.markdowntutor
 #2. 标题
 在正文前加几个#就是几级标题
 
-    >#Header one
-    >##Header two
-    >###Header three
-    >####Header four
-    >#####Header five
-    >######Header six
 >#Header one
 >##Header two
 >###Header three
 >####Header four
 >#####Header five
 >######Header six
+
+>#Header one  
+>##Header two  
+>###Header three  
+>####Header four  
+>#####Header five  
+>######Header six  
  
 #3. 链接
 Markdown有两种不同的链接方式
@@ -61,7 +62,8 @@ inline就像是常量，自己设置，reference link像是变量，可以全局
 举例：
 ![凉宫春日](http://upload-images.jianshu.io/upload_images/7981571-fc1329b2b2ae873e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-    ![凉宫春日](http://upload-images.jianshu.io/upload_images/7981571-1def1efce384ef09?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+     ![凉宫春日](http://upload-images.jianshu.io/upload_images/7981571-1def1efce384ef09?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  
 ##4.2 reference image link
 类似链接，不同的是在前面加个 "!" 。
 注：需要加一个空行。
