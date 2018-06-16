@@ -48,10 +48,10 @@ Markdown有两种不同的链接方式
 举例：
 [知乎][ex1]是个好网站。
 
-[ex1] : (https://www.zhihu.com)
+[ex1]:https://www.zhihu.com
     
     [知乎][ex1]是个好网站。    
-    [ex1]:(https://www.zhihu.com)
+    [ex1]:https://www.zhihu.com
 inline就像是常量，自己设置，reference link像是变量，可以全局配置。
 # 4. 图片
 图片导入方法跟链接相似，两种。
