@@ -36,7 +36,7 @@ Markdown的教程内容，来源于[Markdown tutorial](https://www.markdowntutor
 >#####Header five  
 >######Header six  
  
-#3. 链接
+# 3. 链接
 Markdown有两种不同的链接方式
  * inline link
  * reference link
@@ -47,6 +47,7 @@ Markdown有两种不同的链接方式
 ## 3.2 reference link
 举例：
 [知乎][ex1]是个好网站。
+
 [ex1] : (https://www.zhihu.com)
     
     [知乎][ex1]是个好网站。    
