@@ -22,12 +22,12 @@ Markdown的教程内容，来源于[Markdown tutorial](https://www.markdowntutor
 #2. 标题
 在正文前加几个#就是几级标题
 
->#Header one
->##Header two
->###Header three
->####Header four
->#####Header five
->######Header six
+># Header one  
+>## Header two  
+>### Header three  
+>#### Header four  
+>##### Header five  
+>###### Header six  
 
 >#Header one  
 >##Header two  
@@ -53,18 +53,18 @@ Markdown有两种不同的链接方式
     [知乎][ex1]是个好网站。    
     [ex1]:www.zhihu.com
 inline就像是常量，自己设置，reference link像是变量，可以全局配置。
-#4. 图片
+# 4. 图片
 图片导入方法跟链接相似，两种。
  * inline image link
  * reference image link
-##4.1 inline image link
+## 4.1 inline image link
 在开头加入感叹号!，用 [ ] 包含图片名称，用 ( ) 包含图片链接。
 举例：
 ![凉宫春日](http://upload-images.jianshu.io/upload_images/7981571-fc1329b2b2ae873e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-     ![凉宫春日](http://upload-images.jianshu.io/upload_images/7981571-1def1efce384ef09?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>![凉宫春日](http://upload-images.jianshu.io/upload_images/7981571-1def1efce384ef09?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
   
-##4.2 reference image link
+## 4.2 reference image link
 类似链接，不同的是在前面加个 "!" 。
 注：需要加一个空行。
 ![Wallpaper][ex2]
@@ -74,15 +74,15 @@ inline就像是常量，自己设置，reference link像是变量，可以全局
     ![Wallpaper][ex2]
 
     [ex2]:https://github.com/Sherry720/Life/blob/master/Violet%20Evergarden.png?raw=true
-#5. 引用
+# 5. 引用
 在引用内容前加入“>”即可。可连续插入引用符号。
 举例：
 >这话是鲁迅说的
 
     >这话是鲁迅说的
-#6.列表
+# 6.列表
 有两种排序方式，无序和有序。
-##6.1 无序
+## 6.1 无序
 在排序内容前加星号*，记得空一格。
 * 我
 * 是
@@ -95,7 +95,7 @@ inline就像是常量，自己设置，reference link像是变量，可以全局
       * 火
       * 车
       * 王
-##6.2 有序
+## 6.2 有序
 把星号改成数字顺序排列就行。
 1.  我
 2.  是
@@ -108,7 +108,7 @@ inline就像是常量，自己设置，reference link像是变量，可以全局
         3.  火
         4.  车
         5.  王
-#6.3 列表插入列表
+# 6.3 列表插入列表
 加个空格即可。
 1. 天上飞的
     * 麻雀
@@ -124,7 +124,7 @@ inline就像是常量，自己设置，reference link像是变量，可以全局
         2. 水里游的
             * 鱼
             * 波塞冬
-#7. 段落
+# 7. 段落
 输入：
 
     东风夜放花千树，
